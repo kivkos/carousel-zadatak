@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+$width_row: 1030px;
+$main_color: #0047AB;
+$font: 'Work Sans', sans-serif;
+
+.carousel-row-first {
+  width: $width_row;
+  margin-left: -120px;
+  transition: transform 0.5s ease;
+  position: relative;
+}
+.carousel-row-second {
+  width: $width_row;
+  margin-left: -130px;
+  transition: transform 0.5s ease;
+  display: inline-block;
+  position: relative;
+}
+
+.carousel-image {
+  height: 200px; 
+  width: auto; 
+  margin: 3px;
+  border-radius: 5%;
+}
+
+.carousel-controls {
+  margin-right: 20px;
+  float: right;
+  margin-bottom: 5px;
+}
+
+.carousel-btn {
+  background: white;
+  border: solid;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
+  width: 60px;
+  height: 60px; 
+  cursor: pointer;
+  margin-bottom: 5px;
+
+  &:hover {
+    border-color: $main_color;
+    border-width: 2px;
+    display: inline;
+  }
+}
+
+.title {
+    color: $main_color;
+    font-family: $font;
+    }
+
+.text {
+  color: #36454F;
+  width: max-content;
+  max-width: 301px; 
+  overflow-wrap: break-word;
+  font-size: large;
+  font-family: $font;
+  
+}
+
+.parent {
+  max-width: 940px;
+  display: flex;
+  margin-top: 60px;
+
+  .child {
+    width: 100%;
+  }
+
+  .child2 {
+    width: 301px;
+    height: 296px;
+    flex-direction: row;
+ }
+}
+
+@mixin theme($margin_top: 0) {
+  background-color: #DDDDDD;
+  height: 100px;
+  width: 940px;
+  margin-left: 490px;
+}
+
+.header {
+    @include theme;
+}
+.footer {
+  @include theme($margin_top: 55px)
+}
+

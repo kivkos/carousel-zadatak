@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+.carousel-row-first {
+  width: 1030px;
+  margin-left: -120px;
+  transition: transform 0.5s ease;
+  position: relative;
+}
+
+.carousel-row-second {
+  width: 1030px;
+  margin-left: -130px;
+  transition: transform 0.5s ease;
+  display: inline-block;
+  position: relative;
+}
+
+.carousel-image {
+  height: 200px;
+  width: auto;
+  margin: 3px;
+  border-radius: 5%;
+}
+
+.carousel-controls {
+  margin-right: 20px;
+  float: right;
+  margin-bottom: 5px;
+}
+
+.carousel-btn {
+  background: white;
+  border: solid;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-width: 1px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.carousel-btn:hover {
+  border-color: #0047AB;
+  border-width: 2px;
+  display: inline;
+}
+
+.title {
+  color: #0047AB;
+  font-family: "Work Sans", sans-serif;
+}
+
+.text {
+  color: #36454F;
+  width: max-content;
+  max-width: 301px;
+  overflow-wrap: break-word;
+  font-size: large;
+  font-family: "Work Sans", sans-serif;
+}
+
+.parent {
+  max-width: 940px;
+  display: flex;
+  margin-top: 60px;
+}
+.parent .child {
+  width: 100%;
+}
+.parent .child2 {
+  width: 301px;
+  height: 296px;
+  flex-direction: row;
+}
+
+.header {
+  background-color: #DDDDDD;
+  height: 100px;
+  width: 940px;
+  margin-left: 490px;
+}
+
+.footer {
+  background-color: #DDDDDD;
+  height: 100px;
+  width: 940px;
+  margin-left: 490px;
+}
+
+/*# sourceMappingURL=style.css.map */

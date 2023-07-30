@@ -1,0 +1,25 @@
+{
+  "name": "carousel_zadatak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel script.js --out-file script.transpiled.js --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kivkos/carousel-zadatak.git"
+  },
+  "author": "kristina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kivkos/carousel-zadatak/issues"
+  },
+  "homepage": "https://github.com/kivkos/carousel-zadatak#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+
+}
